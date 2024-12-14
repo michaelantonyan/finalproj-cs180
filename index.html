@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+<head>
+  <title>How to submit assignments for CS180/CS280A</title>
+  <style>
+    code i {
+      color: rgb(107, 107, 107);
+    }
+
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <h1>How to submit assignments for CS180/CS280A.</h1>
+  </header>
+  <p>
+    For each assignment, you will be required to submit two deliverables to
+    Gradescope (Entry Code: KZNDRJ). <br>
+    Please upload a <code>.zip</code> adhering to the following structure:
+  </p>
+  <code>
+    submission.zip<br />
+    ├─code/<br />
+    │ ├─main.ipynb &nbsp;&nbsp;<i># or main.py or main.m</i><br />
+    │ ├─utils.py&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i># generic example file, not needed</i><br />
+    │ └─README.txt&nbsp;&nbsp;&nbsp;<i># or markdown</i><br />
+    └─web/<br />
+    &nbsp;&nbsp;├─page.pdf <br />
+    &nbsp;&nbsp;└─sites.txt <br />
+  </code>
+
+  <br>
+  <h2>1. Code</h2>
+  <p>
+    You should upload code <i>only</i> to Gradescope. <b>Do <i>not</i> host your code publicly.</b>
+  </p>
+  <ul>
+    <li>
+      All of your project code should be contained in some
+      <code>main.py</code>/<code>main.ipynb</code>/<code>main.m</code> that the grader(s) can run to reproduce your
+      results. If you have a complex workflow, make sure to upload all the necessary files and include a
+      <code>README.txt</code> file describing how we can run your code.
+    </li>
+    <li>
+      Please be sure to appropriately comment your code so that the graders can appropriately identify where your
+      implementations lie and what they do.
+    </li>
+    <li>
+      Place all of your coding files in the <code>code/</code> directory. They should be distinct from your web files.
+    </li>
+  </ul>
+
+  <br>
+  <h2>2. Webpage Report</h2>
+  <p>
+    If you do not already have a webpage set up, we recommend using GitHub Pages (<a
+      href="./gh-pages.html">tutorial</a>).
+  </p>
+  <ul>
+    <li>
+      You should upload a <code>web/</code> folder containing two files: <code>page.pdf</code> and
+      <code>sites.txt</code>.
+    </li>
+    <li>
+      <code>page.pdf</code> should be a PDF of your webpage (i.e. printing the page and saving it as a PDF).
+      <ul>
+        <li>
+          If your page contains animations/interactivity that cannot be captured in a PDF, please note this in the
+          report.
+        </li>
+        <li>You may consider compressing the PDF
+          file if you hit the 100Mb size limit
+          (e.g. with <a href="https://www.adobe.com/acrobat/online/compress-pdf.html">this</a>)</li>
+      </ul>
+    </li>
+    <li>
+      <code>sites.txt</code> should be a have two lines (and nothing else!):
+    </li>
+    <ol>
+      <li>
+        Webpage report URL (may look like <code>https://[gh-user].github.io/[proj#]/</code> ─ or ─
+        <code>https://[gh-user].github.io/[repo-name]/[proj#]/</code> )
+      </li>
+      <li>
+        GitHub repo URL (may look like <code>https://github.com/[gh-user].github.io/</code>  ─ or ─
+        <code>https://github.com/[gh-user]/[repo-name]/</code> )
+        <ul>
+          <li>This must be a public repo</li>
+          <li>NO CODE should be hosted here, or any where else public.</li>
+        </ul>
+      </li>
+    </ol>
+  </ul>
+  <p>
+    If you have any comments, even if they're about web and not code, please include them in <code>./code/README.txt</code>
+  </p>
+
+<h1 style="color:blue">Begin Solution Lightfield Camera</h1>
+<center>
+<br>
+<h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+  DESCRIPTION: This output is the refocusing of the jelly bean image, which is done through a series of translation transformations
+  given a list of images, to create a an animated image of the refocusing occurring.
+</h3>
+<br>
+<img src="WebImage1.gif" style="max-width:70%">
+<br>
+<h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+  DESCRIPTION: This output is the adjustment of the aperature of the jelly bean image, which is once again done through a series of translations 
+  which are then averaged to return a series of images, that, when animated, show a real time aperature adjustment derived from a series
+  of images. 
+</h3>
+<br>
+<img src="WebImage2.gif" style="max-width:70%">
+<br>
+<h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+  DESCRIPTION: This output is the refocusing of the chess board image, which is done through a series of translation transformations
+  given a list of images, to create a an animated image of the refocusing occurring.
+</h3>
+<br>
+<img src="WebImage3.gif" style="max-width:70%">
+<br>
+<h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+  DESCRIPTION: This output is the adjustment of the aperature of the chess board image, which is once again done through a series of translations 
+  which are then averaged to return a series of images, that, when animated, show a real time aperature adjustment derived from a series
+  of images.
+</h3>
+<br>
+<img src="WebImage4.gif" style="max-width:70%">
+<br>
+</center>
+<h1 style="color:blue; max-width:70%">End Solution Lightfield Camera</h1>
+
+<h1 style="color:blue">Begin Solution Eulerian Image Magnification</h1>
+<center>
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: Using the parameters specified from the paper, the image below is the output of a the video being ran through a Butterworth filter. I had to use an additional parameter
+    beta to be able to get more stable results (the issue was with the amplitude, not the period). While the use of the beta parameter shrunk the differences between various peaks
+    on the cumulative brightness scale, there were still inconsistencies in the output which I did not know how to correct for completely.
+  </h3>
+  <br>
+  <img src="WebImage5.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: Using the parameters specified from the paper, the image below is the output of a the video being ran through a Butterworth filter. I had to use an additional parameter
+    beta to be able to get more stable results (the issue was with the amplitude, not the period). While the use of the beta parameter shrunk the differences between various peaks
+    on the cumulative brightness scale, there were still inconsistencies in the output which I did not know how to correct for completely.
+  </h3>
+  <br>
+  <img src="WebImage6.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: Using parameters that I have experimentally determined, the image below is the output of a the video being ran through a Butterworth filter. I had to use an additional parameter
+    beta to be able to get more stable results (the issue was with the amplitude, not the period). While the use of the beta parameter shrunk the differences between various peaks
+    on the cumulative brightness scale, there were still inconsistencies in the output which I did not know how to correct for completely.
+  </h3>
+  <br>
+  <img src="WebImage7.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I switched the parameters of baby2 and face to see the impact on the output data, and while the result still showed pulsation, the .gif was much
+    less consistent in the ebb and flow of the brightness of the image (controlled on the yiq scale before being converted back to rgb).
+  </h3>
+  <br>
+  <img src="WebImage8.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I switched the parameters of baby2 and face to see the impact on the output data, and while the result still showed pulsation, the .gif was much
+    less consistent in the ebb and flow of the brightness of the image (controlled on the yiq scale before being converted back to rgb).
+  </h3>
+  <br>
+  <img src="WebImage9.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I increased the frequency but kept the band small. There was still noticable pulsation on the resulting output video - although this pulsation was
+    inconsistent and appears to increase and decrease on a higher order, which I tried to control for wih a regression function somewhat successfully on given parameters, but 
+    struggled with on changed parameters. Color was not affected since I used the YIQ scale.
+  </h3>
+  <br>
+  <img src="WebImage10.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I increased the frequency and expanded the band. There was still noticable pulsation on the resulting output video - although this pulsation was
+    inconsistent and appears to increase and decrease on a higher order, which I tried to control for wih a regression function somewhat successfully on given parameters, but 
+    struggled with on changed parameters. Color was not affected since I used the YIQ scale.
+  </h3>
+  <br>
+  <img src="WebImage11.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I increased the frequency and expanded the band. There was still noticable pulsation on the resulting output video - although this pulsation was
+    inconsistent and appears to increase and decrease on a higher order, which I tried to control for wih a regression function somewhat successfully on given parameters, but 
+    struggled with on changed parameters. Color was not affected since I used the YIQ scale.
+  </h3>
+  <br>
+  <img src="WebImage12.gif" style="max-width:70%">
+  <br>
+  <h3 style="color:blue; max-width:70%; color:blue; max-width:70%; border-style: solid; border-width: 5px; border-color:orange; background-color:pink; font-variant: normal;">
+    DESCRIPTION: For this output, I increased the frequency and expanded the band. There was still noticable pulsation on the resulting output video - although this pulsation was
+    inconsistent and appears to increase and decrease on a higher order, which I tried to control for wih a regression function somewhat successfully on given parameters, but 
+    struggled with on changed parameters. Color was not affected since I used the YIQ scale.
+  </h3>
+  <br>
+  <img src="WebImage13.gif" style="max-width:70%">
+  <br>
+  </center>
+<h1 style="color:blue; max-width:70%">End Solution Eulerian Image Magnification</h1>
+
+</body>
+
+</html>
